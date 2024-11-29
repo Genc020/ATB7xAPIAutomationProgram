@@ -9,6 +9,6 @@ public class Test001 {
                 .when()
                 .get()
                 .then().log().all()
-                .statusCode(200);
+                 .statusCode(200);
     }
 }
